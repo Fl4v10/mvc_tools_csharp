@@ -1,0 +1,11 @@
+C:\Users\PAULO\source\repos\MVCToolsProject\MVCTools\bin\Debug\netcoreapp2.0\MVCTools.deps.json
+C:\Users\PAULO\source\repos\MVCToolsProject\MVCTools\bin\Debug\netcoreapp2.0\MVCTools.runtimeconfig.json
+C:\Users\PAULO\source\repos\MVCToolsProject\MVCTools\bin\Debug\netcoreapp2.0\MVCTools.runtimeconfig.dev.json
+C:\Users\PAULO\source\repos\MVCToolsProject\MVCTools\bin\Debug\netcoreapp2.0\MVCTools.dll
+C:\Users\PAULO\source\repos\MVCToolsProject\MVCTools\bin\Debug\netcoreapp2.0\MVCTools.pdb
+C:\Users\PAULO\source\repos\MVCToolsProject\MVCTools\obj\Debug\netcoreapp2.0\MVCTools.csprojResolveAssemblyReference.cache
+C:\Users\PAULO\source\repos\MVCToolsProject\MVCTools\obj\Debug\netcoreapp2.0\MVCTools.csproj.CoreCompileInputs.cache
+C:\Users\PAULO\source\repos\MVCToolsProject\MVCTools\obj\Debug\netcoreapp2.0\MVCTools.AssemblyInfoInputs.cache
+C:\Users\PAULO\source\repos\MVCToolsProject\MVCTools\obj\Debug\netcoreapp2.0\MVCTools.AssemblyInfo.cs
+C:\Users\PAULO\source\repos\MVCToolsProject\MVCTools\obj\Debug\netcoreapp2.0\MVCTools.dll
+C:\Users\PAULO\source\repos\MVCToolsProject\MVCTools\obj\Debug\netcoreapp2.0\MVCTools.pdb
