@@ -37,7 +37,7 @@ namespace MVCTools
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Tools}/{action=Index}/{id?}");
+                    template: "{controller=Resume}/{action=Index}/{id?}");
             });
         }
     }
