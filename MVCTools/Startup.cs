@@ -28,7 +28,7 @@ namespace MVCTools
             }
             else
             {
-                app.UseExceptionHandler("/Tools/Error");
+                app.UseExceptionHandler("/error");
             }
 
             app.UseStaticFiles();
