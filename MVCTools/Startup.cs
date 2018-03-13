@@ -39,6 +39,17 @@ namespace MVCTools
                     name: "default",
                     template: "{controller=Resume}/{action=Index}/{id?}");
             });
+
+            app.Use(async (ctx, next) =>
+            {
+                await next();
+
+                if (ctx.Response.StatusCode == 404 && !ctx.Response.HasStarted)
+                {
+                    ctx.Request.Path = "/error";
+                    await next();
+                }
+            });
         }
     }
 }

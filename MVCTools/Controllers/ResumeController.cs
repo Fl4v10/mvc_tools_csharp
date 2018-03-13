@@ -1,12 +1,10 @@
-﻿using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
-using MVCTools.Models;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace MVCTools.Controllers
 {
     public class ResumeController : Controller
     {
-        [HttpGet]
+        [HttpGet("home")]
         public IActionResult Index()
         {
             ViewBag.Title = "Sobre Mim";
@@ -38,6 +36,13 @@ namespace MVCTools.Controllers
         public IActionResult Interests()
         {
             ViewBag.Title = "Interesses";
+            return View();
+        }
+
+        [Route("{*url}")]
+        public IActionResult CatchAll()
+        {
+            Response.StatusCode = 404;
             return View();
         }
     }
