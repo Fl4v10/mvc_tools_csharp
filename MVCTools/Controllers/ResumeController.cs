@@ -4,35 +4,47 @@ namespace MVCTools.Controllers
 {
     public class ResumeController : Controller
     {
-        [HttpGet("home")]
+        [HttpGet]
+        [Route("")]
         public IActionResult Index()
+        {
+            return RedirectToAction("About");
+        }
+
+        [HttpGet]
+        [Route("About")]
+        public IActionResult About()
         {
             ViewBag.Title = "Sobre Mim";
             return View();
         }
 
-        [HttpGet("experience")]
+        [HttpGet]
+        [Route("experience")]
         public IActionResult Experience()
         {
             ViewBag.Title = "Experiência";
             return View();
         }
 
-        [HttpGet("education")]
+        [HttpGet]
+        [Route("education")]
         public IActionResult Education()
         {
             ViewBag.Title = "Formação";
             return View();
         }
 
-        [HttpGet("skills")]
+        [HttpGet]
+        [Route("skills")]
         public IActionResult Skills()
         {
             ViewBag.Title = "Habilidades";
             return View();
         }
 
-        [HttpGet("interests")]
+        [HttpGet]
+        [Route("interests")]
         public IActionResult Interests()
         {
             ViewBag.Title = "Interesses";
